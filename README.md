@@ -82,9 +82,3 @@ This quick fix (for testing only) yielded a more meaningful result.
 - `notebooks/` – Jupyter notebooks with EDA and model training
 - `requirements.txt` – List of dependencies
 
----
-
-## 💡 Final Thoughts
-
-This started as a curiosity-driven experiment and turned into a deeper look at bias in datasets.  
-It also revealed that even a "dumb" model can appear smart when data is skewed — a valuable lesson in data science.
