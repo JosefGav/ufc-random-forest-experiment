@@ -32,7 +32,7 @@ While these labels are arbitrary (in the same way that the color of shorts a fig
 |Actual R Win|      36     |     760     |
 
 
-- The model **rarely predicted "blue"**, but when it did, it was **correct nearly 50%** of the time.
+- The model **rarely predicted "blue"**, but when it did, it was **correct Over 50%** of the time.
 - This suggests potential for combining model predictions with **betting odds** — betting only on the underdog when the model shows strong confidence.
 - This opens the door to various betting strategies (e.g., wager only when the model confidently predicts an underdog win — a rare event, but potentially profitable).
 
