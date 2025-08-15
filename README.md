@@ -26,7 +26,9 @@ While these labels are arbitrary (in the same way that the color of shorts a fig
 
 ### 🔁 Confusion Matrix (Original Dataset):
   B   R
+  
 [[ 39 346]  <- loss
+
  [ 36 760]] <- victory
 
 - The model **rarely predicted "blue"**, but when it did, it was **correct nearly 50%** of the time.
