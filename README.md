@@ -25,11 +25,12 @@ While these labels are arbitrary (in the same way that the color of shorts a fig
 > This means that simply predicting “red” for every match gives a baseline accuracy of ~67.4%, similar to the model.
 
 ### 🔁 Confusion Matrix (Original Dataset):
-    Predicted
-         B     R
-      -------------
-B |    39   346   <- Actual Loss
-R |    36   760   <- Actual Victory
+
+|        | Predicted B | Predicted R |
+|--------|-------------|-------------|
+| Actual B (Loss)   |      39     |     346     |
+| Actual R (Victory)|      36     |     760     |
+
 
 - The model **rarely predicted "blue"**, but when it did, it was **correct nearly 50%** of the time.
 - This suggests potential for combining model predictions with **betting odds** — betting only on the underdog when the model shows strong confidence.
