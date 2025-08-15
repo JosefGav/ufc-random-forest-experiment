@@ -46,9 +46,11 @@ I removed meaningful features and used only the least informative one — **numb
 > Surprisingly, the model still reached 67.4% accuracy by **predicting "red" every time**.
 
 ### Confusion Matrix (Useless Features):
-    B   R
- [[  0 385] <- loss
- [  0 796]] <- victory
+|         | Predicted B | Predicted R |
+| ------- | ----------- | ----------- |
+| Loss    | 0           | 385         |
+| Victory | 0           | 796         |
+
 
 This confirms the **strong class imbalance**: the model learns to always guess "red" to maximize accuracy.
 
