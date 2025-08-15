@@ -28,8 +28,8 @@ While these labels are arbitrary (in the same way that the color of shorts a fig
 
 |        | Predicted B | Predicted R |
 |--------|-------------|-------------|
-| Actual B (Loss)   |      39     |     346     |
-| Actual R (Victory)|      36     |     760     |
+|Loss   |      39     |     346     |
+|Victory|      36     |     760     |
 
 
 - The model **rarely predicted "blue"**, but when it did, it was **correct nearly 50%** of the time.
