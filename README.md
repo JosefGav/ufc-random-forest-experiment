@@ -26,10 +26,10 @@ While these labels are arbitrary (in the same way that the color of shorts a fig
 
 ### 🔁 Confusion Matrix (Original Dataset):
 
-|        | Predicted B | Predicted R |
+|        | Predicted B Win | Predicted R Win |
 |--------|-------------|-------------|
-|Loss   |      39     |     346     |
-|Victory|      36     |     760     |
+|Actual B Win   |      39     |     346     |
+|Actual R Win|      36     |     760     |
 
 
 - The model **rarely predicted "blue"**, but when it did, it was **correct nearly 50%** of the time.
@@ -48,8 +48,8 @@ I removed meaningful features and used only the least informative one — **numb
 ### Confusion Matrix (Useless Features):
 |         | Predicted B | Predicted R |
 | ------- | ----------- | ----------- |
-| Loss    | 0           | 385         |
-| Victory | 0           | 796         |
+| Actual B Win    | 0           | 385         |
+| Actual R Win | 0           | 796         |
 
 
 This confirms the **strong class imbalance**: the model learns to always guess "red" to maximize accuracy.
